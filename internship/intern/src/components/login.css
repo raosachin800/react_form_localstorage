@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  position: relative;
+}
+
+.label_username {
+  position: absolute;
+  right: 47.1%;
+  bottom: 93.5%;
+  z-index: 99;
+  background-color: inherit;
+  font-size: 1rem;
+  background-color: #1b427d;
+  padding: 0 0.4rem;
+  color: white;
+}
+
+.username {
+  width: 18%;
+  height: 2.5rem;
+  z-index: 1;
+  padding: 1.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: inherit;
+  border: 1px solid white;
+}
+
+input:focus {
+  background-color: inherit;
+  border: none;
+}
+
+.label_password {
+  position: absolute;
+  right: 48.1%;
+  bottom: 37.5%;
+  z-index: 99;
+  background-color: inherit;
+  font-size: 1rem;
+  background-color: #1b427d;
+  padding: 0 0.4rem;
+  color: white;
+}
+
+.btn {
+  position: absolute;
+  padding: 0.7rem 3.4rem;
+  cursor: pointer;
+  right: 45.6%;
+  top: 120%;
+  font-size: 1rem;
+  color: #1b427d;
+  font-weight: bolder;
+}
+.btn1 {
+  position: absolute;
+  padding: 0.7rem 3.1rem;
+  cursor: pointer;
+  left: 41%;
+  top: 120%;
+  font-size: 1rem;
+  color: #1b427d;
+  font-weight: bolder;
+}
+
+.check {
+  position: absolute;
+  right: 52.8%;
+  top: 90%;
+  color: white;
+  background-color: inherit;
+}
+
+@media screen and (max-device-width: 420px) {
+  .login {
+    width: 100%;
+  }
+  .username {
+    padding: 1rem 8.4rem;
+  }
+  .label_username {
+    right: 41.1%;
+  }
+  .label_email {
+    right: 37.1%;
+  }
+  .label_password {
+    right: 41.1%;
+  }
+  .btn {
+    right: 30.6%;
+  }
+}
